@@ -60,7 +60,8 @@ function usingBind() {
 
     //1. Borrow fullName using bind
     //2. Pass bind_demo[as ui_place] , Hi I am ,[as message]
-    Brad.fullName.bind(Daenerys, bind_demo, 'Hi I am');
+    let daenerys = Brad.fullName.bind(Daenerys, bind_demo, 'Hi I am');
+    daenerys();
 
 
 }
