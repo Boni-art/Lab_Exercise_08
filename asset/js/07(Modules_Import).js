@@ -15,9 +15,10 @@ import { exp2_Alias } from "./07(Modules_Export).js";
 exp_alias.innerHTML = exp2_Alias();
 
 //7. Import exp3 as alias function as destructuring
+import {exp3 as exp3_alias} from "./07(Modules_Export).js";
 
 //8. Display the exp3_alias() [remove the string when you have the variable]
-imp_alias.innerHTML = "exp3_alias()";
+imp_alias.innerHTML = exp3_alias();
 
 // 9 import All (*) as imp_all 
 import * as imp_all from "./07(Modules_Export).js";
@@ -27,7 +28,7 @@ import_all.innerHTML = `
 
 <li class="list-group-item" > ${imp_all.myVar}</li>
 <li class="list-group-item" > ${imp_all.exp1()}</li>
-<li class="list-group-item" > imp_all.exp2_Alias()</li>
-<li class="list-group-item" > imp_all.exp3()</li>
+<li class="list-group-item" > ${imp_all.exp2_Alias()}</li>
+<li class="list-group-item" > ${imp_all.exp3()}</li>
 
 `;
