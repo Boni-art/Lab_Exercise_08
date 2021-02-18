@@ -13,6 +13,16 @@ function forINLoop() {
     const student = { name: "Abebe", age: 21, year: "2dn year" }
 
     // 1. Create a for in loop that iterate over the student object
+    for (const res in student) {
+        if (Object.hasOwnProperty.call(student, res)) {
+            const Value = student[res];
+            forInLoop.innerHTML +=
+            `
+            <li class="list-group-item" >${res} : ${Value}</li>`;
+            
+        }
+    }
+
 
 
     // 2. Inside the loop paint the UI [Use the Format Given Below]
