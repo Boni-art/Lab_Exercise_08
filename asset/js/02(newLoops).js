@@ -46,6 +46,14 @@ function forOFLoop() {
 
     // 1. Create a for of loop that iterate over the students Array and displays the names of students 
 
+    for (const item of students) {
+        forOfLoop.innerHTML +=
+        `
+        <li class="list-group-item" >Name : ${item.name}</li>
+
+    `;
+    }
+
 
     // 2. Inside the loop paint the UI [Use the Format Given Below]
 
