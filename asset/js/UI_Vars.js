@@ -26,6 +26,9 @@ const arrow_full = document.querySelector('#arrow_full');
 const arrow_red1 = document.querySelector('#arrow_red1');
 const arrow_red2 = document.querySelector('#arrow_red2');
 
+const es5 = document.querySelector("#es5_issue");
+const es6 = document.querySelector("#es6_issue");
+
 //Function borrowing
 const call_demo = document.querySelector('#call_demo');
 const apply_demo = document.querySelector('#apply_demo');
