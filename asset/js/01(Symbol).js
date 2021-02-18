@@ -25,11 +25,11 @@ function displaySymbol() {
 function displaySymbolEquality() {
 
     // 1. Create an id1 constant that store Symbol with id debugging string 
-    // const id1 = Symbol("Debuging_String");
+    const id1 = Symbol("Debuging_String");
 
 
     // 2. Create an id2 constant that store Symbol with id debugging string 
-    // const id2 = Symbol("Debuging_String");
+    const id2 = Symbol("Debuging_String");
 
 
     // 3. Compare their equality (===) , store it on result variable
