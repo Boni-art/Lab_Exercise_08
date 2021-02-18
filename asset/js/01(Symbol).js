@@ -56,7 +56,7 @@ function displaySymbolObject() {
     //2. Add the symbol property to the object [this will be considered as hidden property]
     //3. Let the Id value be 1234
     // Note : user [] 
-    student[id] = 1234;
+    student[id] = '1234';
 
 
     //Display the object on console 
